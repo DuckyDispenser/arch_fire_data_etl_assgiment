@@ -1,9 +1,9 @@
 
-#This repository contains the code for Archfire assgiment.
+# This repository contains the code for Archfire assgiment.
 
 The assgiment i was given to extract data from the opendata api convert it into a df and insert and create a table for with big query
 
-##Requirements
+## Requirements
 To run this application, ensure that you have the following:
 
 Python (version 3.10)
@@ -34,7 +34,7 @@ Copy code
 python main.py
 Usage
 
-##The main script performs the following steps:
+## The main script performs the following steps:
 
 ```
   def request_url_todf(self) -> 'pd.DataFrame':
