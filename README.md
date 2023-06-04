@@ -1,9 +1,9 @@
 
-This repository contains the code for Archfire assgiment.
+#This repository contains the code for Archfire assgiment.
 
 The assgiment i was given to extract data from the opendata api convert it into a df and insert and create a table for with big query
 
-Requirements
+##Requirements
 To run this application, ensure that you have the following:
 
 Python (version 3.10)
@@ -30,12 +30,13 @@ Set TMP_PATH to the desired temporary file directory.
 Set PROJECT_ID to your Google Cloud Platform project ID.
 Run the main script.
 
-css
 Copy code
 python main.py
 Usage
-The main script performs the following steps:
 
+##The main script performs the following steps:
+
+```
   def request_url_todf(self) -> 'pd.DataFrame':
       """
       reads data from api transforms into dataframe
@@ -55,7 +56,7 @@ The main script performs the following steps:
       :param func:
       :return [pd.DataFrame, ]:
       """
-
+```
 Requests data from the specified API URL and transforms it into a pandas DataFrame.
 Saves the DataFrame as a CSV file in the temporary file directory.
 Reads the CSV file from the temporary file directory into a DataFrame.
