@@ -3,7 +3,7 @@
 
 The assgiment i was given to extract data from the opendata api convert it into a df and insert and create a table for with big query
 
-![alt text](https://github.com/DuckyDispenser/arch_fire_data_etl_assgiment/blob/main/nyc-fire-dispatcher-export.png=250x250?raw=true)
+![alt text](https://github.com/DuckyDispenser/arch_fire_data_etl_assgiment/blob/main/nyc-fire-dispatcher-export.png=250x250=?raw=true)
 ## Requirements
 To run this application, ensure that you have the following:
 
